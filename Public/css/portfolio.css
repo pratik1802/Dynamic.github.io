@@ -1,0 +1,90 @@
+*{
+    /* outline: 2px solid red; */
+}
+
+
+.fa-solid .fa-user {
+
+    height: 200px;
+    width: 200px;
+}
+
+.icon {
+
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon img{
+
+    min-height: 450px;
+    width: 400px;
+}
+.gap{
+    border:1px solid red;
+    /* gap:10px; */
+    /* gap:5px; */
+}
+.about{
+    color:red;
+}
+
+.sevicecols{
+
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen ;
+    
+}
+.btn1:hover{
+    border:1px solid red ;
+    /* padding: 20px !important; */
+    cursor: pointer;
+    color: rgb(224, 224, 17);
+    background-color: blue;
+
+}
+
+.sevicecols img{
+
+    height: 10vh;
+}
+.card{
+
+    border-radius: 10px;
+    transition: all ease .5s;
+}
+.card:hover{
+
+    box-shadow: 10px 10px 15px gray;
+    cursor: pointer;
+    margin-top: -2rem;
+    
+}
+
+
+.footer{
+
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+.services{
+
+   background-color: thistle;
+}
+.right{
+
+    background-color: lightcyan;
+}
+.navbar{
+
+    /* position: fixed; */
+    z-index: 1030;
+}
+
